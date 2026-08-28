@@ -1,0 +1,54 @@
+# Kinopoisk
+# https://github.com/v2fly/domain-list-community/blob/master/data/kinopoisk
++.kinopoisk.ru
++.kinopoisk-ru.clstorage.net
+# Custom
++.kinopoisk.net
+
+# Kion
+# https://github.com/v2fly/domain-list-community/blob/master/data/mts-ru
++.kion.ru
+
+
+# Okko
+# https://github.com/v2fly/domain-list-community/blob/master/data/okko
++.okkoapi.tv
++.playfamily.ru
++.okko.sport
++.okko.tv
+
+
+# Wink
+# https://github.com/v2fly/domain-list-community/blob/master/data/wink
++.restream-media.net
++.restream.ru
++.more.tv
++.wink.am
++.wink.ru
+
+
+
+# Other
+# https://github.com/v2fly/domain-list-community/blob/06111d32139e3497a20fded97ca2b4424ad87e60/data/category-entertainment-ru#L17
++.24h.tv
++.amediateka.ru
++.beeline.tv
++.ivi.ru
++.ivicdn.tv
++.premier.one
++.smotreshka.tv
++.start.ru
++.tvigle.ru
++.viju.ru
++.kinorium.com
+
+# CDNs
++.cdnvideo.ru
++.cdnvideohub.com
++.kinescopecdn.net
++.trbcdn.net
+
+# Not blocked
+
+# Anime
++.yummyani.me

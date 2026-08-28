@@ -1,0 +1,157 @@
+name: Build Rule Sets
+
+on:
+  push:
+    branches: [ "main" ]
+    paths:
+      - 'data/**'
+      - 'cmd/**'
+      - 'internal/**'
+      - 'go.mod'
+      - 'go.sum'
+  schedule:
+    - cron: '0 4 */3 * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+env:
+  MIHOMO_VERSION: v1.19.29
+  SINGBOX_VERSION: v1.9.3
+
+concurrency:
+  group: build-release
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: '1.23'
+          cache: true
+          cache-dependency-path: go.sum
+
+      - name: Install git-cliff
+        uses: taiki-e/install-action@v2
+        with:
+          tool: git-cliff
+
+      - name: Check for new commits since last tag
+        id: check
+        run: |
+          set -euo pipefail
+          last_tag=$(git tag --list 'v[0-9]*.[0-9]*.[0-9]*' --sort=-v:refname | head -n1 || true)
+
+          if [ -z "$last_tag" ]; then
+            echo "No previous tags found — treating all history as changes."
+            echo "has_changes=true" >> "$GITHUB_OUTPUT"
+            echo "last_tag=" >> "$GITHUB_OUTPUT"
+          else
+            count=$(git rev-list "${last_tag}..HEAD" --count)
+            echo "Commits since ${last_tag}: ${count}"
+            echo "last_tag=${last_tag}" >> "$GITHUB_OUTPUT"
+            if [ "$count" -gt 0 ]; then
+              echo "has_changes=true" >> "$GITHUB_OUTPUT"
+            else
+              echo "has_changes=false" >> "$GITHUB_OUTPUT"
+            fi
+          fi
+
+      - name: Determine next SemVer via git-cliff
+        id: semver
+        if: steps.check.outputs.has_changes == 'true'
+        run: |
+          set -euo pipefail
+          next_version=$(git-cliff --config cliff.toml --bumped-version)
+          echo "Next version: ${next_version}"
+          echo "tag=${next_version}" >> "$GITHUB_OUTPUT"
+
+      - name: Generate full CHANGELOG.md
+        if: steps.check.outputs.has_changes == 'true'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git-cliff --config cliff.toml \
+            --github-repo "${{ github.repository }}" \
+            --tag "${{ steps.semver.outputs.tag }}" \
+            -o CHANGELOG.md
+
+      - name: Generate release notes (current version only)
+        if: steps.check.outputs.has_changes == 'true'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git-cliff --config cliff.toml \
+            --github-repo "${{ github.repository }}" \
+            --tag "${{ steps.semver.outputs.tag }}" \
+            --unreleased \
+            --strip header \
+            -o RELEASE_NOTES.md
+
+      - name: Commit CHANGELOG.md back to repo
+        if: steps.check.outputs.has_changes == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add CHANGELOG.md
+          if ! git diff --cached --quiet; then
+            git commit -m "🔖 Update changelog for ${{ steps.semver.outputs.tag }}"
+            git push origin HEAD:main
+          else
+            echo "CHANGELOG.md unchanged, skipping commit."
+          fi
+
+      - name: Prepare Release Directory
+        if: steps.check.outputs.has_changes == 'true'
+        run: mkdir -p release
+
+      - name: Download Mihomo
+        if: steps.check.outputs.has_changes == 'true'
+        run: |
+          wget -O mihomo.gz "https://github.com/MetaCubeX/mihomo/releases/download/${MIHOMO_VERSION}/mihomo-linux-amd64-${MIHOMO_VERSION}.gz"
+          gunzip mihomo.gz
+          chmod +x mihomo
+
+      - name: Download SingBox
+        if: steps.check.outputs.has_changes == 'true'
+        run: |
+          wget -O sing-box.tar.gz "https://github.com/SagerNet/sing-box/releases/download/${SINGBOX_VERSION}/sing-box-${SINGBOX_VERSION#v}-linux-amd64.tar.gz"
+          tar -xzf sing-box.tar.gz
+          sudo cp "sing-box-${SINGBOX_VERSION#v}-linux-amd64/sing-box" /usr/local/bin/
+
+      - name: Build Mihomo
+        if: steps.check.outputs.has_changes == 'true'
+        run: go run ./cmd/mihomo -mihomo-bin=./mihomo
+
+      - name: Build SingBox
+        if: steps.check.outputs.has_changes == 'true'
+        run: go run ./cmd/singbox
+
+      - name: Build Xray
+        if: steps.check.outputs.has_changes == 'true'
+        run: go run ./cmd/xraycore
+
+      - name: Remove empty rules
+        if: steps.check.outputs.has_changes == 'true'
+        run: find release/ -type f -size 0 -delete
+
+      - name: Create Release
+        if: steps.check.outputs.has_changes == 'true'
+        uses: softprops/action-gh-release@v2
+        with:
+          files: release/*
+          tag_name: ${{ steps.semver.outputs.tag }}
+          name: ${{ steps.semver.outputs.tag }}
+          body_path: RELEASE_NOTES.md
+          draft: false
+          prerelease: false

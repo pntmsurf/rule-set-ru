@@ -1,0 +1,255 @@
+# https://github.com/MetaCubeX/meta-rules-dat/issues/163
+# https://raw.githubusercontent.com/ImpXada/Geosite2Surge/refs/heads/main/data/openai
+
+# OpenAI, Sora & ChatGPT
++.chat.com
++.chatgpt.com
++.chatgpt.site
++.crixet.com
++.oaistatic.com
++.oaistatsig.com
++.oaiusercontent.com
++.openai.com
++.sora.com
+
+ab.chatgpt.com
+ios.chat.openai.com
+tcr9i.chat.openai.com
+api.openai.com
+auth.openai.com
+auth0.openai.com
+chat.openai.com
+
+# Advanced Voice
++.chatgpt.livekit.cloud
++.host.livekit.cloud
++.turn.livekit.cloud
+
+# CDN & API
++.openai.com.cdn.cloudflare.net
+openaiapi-site.azureedge.net
+openaiassets.blob.core.windows.net
+openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
+openaicom.imgix.net
+openaicomproductionae4b.blob.core.windows.net
+production-openaicom-storage.azureedge.net
+chatgpt-async-webps-prod-*-*.webpubsub.azure.com
+
+# Tracking
+browser-intake-datadoghq.com
+o33249.ingest.sentry.io
+openai.qualtrics.com
+
+
+# https://raw.githubusercontent.com/ImpXada/Geosite2Surge/refs/heads/main/data/xai
+# xAI & Grok
++.x.ai
++.grok-ai-system.com
++.grok.com
++.grok.x.com
++.grokipedia.com
+
+
+
+# https://raw.githubusercontent.com/ImpXada/Geosite2Surge/refs/heads/main/data/perplexity
+# Perplexity
++.perplexity.ai
++.perplexity.com
++.pplx.ai
+
++.ppl-ai-file-upload.s3.amazonaws.com
++.pplx-res.cloudinary.com
+
+
+
+# https://raw.githubusercontent.com/ImpXada/Geosite2Surge/refs/heads/main/data/category-ai-!cn
+# Anthropic
+#include:anthropic
++.anthropic.com
++.clau.de
++.claude.ai
++.claude.com
++.claudemcpclient.com
++.claudemcpcontent.com
++.claudeusercontent.com
+
+# CDN
+servd-anthropic-website.b-cdn.net
+
+
+
+# Bytedance AI
++.cici.com
++.ciciai.com
++.ciciaicdn.com
++.dola.com
++.coze.com
++.marscode.com
++.trae.ai
+
+# Cerebras
++.cerebras.ai
+
+# Comfy
+# 绘世启动器
++.oystermercury.top
++.comfy.org
++.comfyci.org
+
++.comfyregistry.org
+
+# Cursor
++.cursor-cdn.com
++.cursor.com
++.cursor.sh
++.cursorapi.com
+
+# ElevenLabs
++.elevenlabs.com
++.elevenlabs.io
+
+# Envato
++.envato-static.com
++.envato.com
++.envatousercontent.com
++.themeforest.net
+
+# GitHub Copilot
++.githubcopilot.com
+copilot-proxy.githubusercontent.com
+copilot-workspace.githubnext.com
+copilotprodattachments.blob.core.windows.net
++.copilot-stg.com
++.copilot.cloud.microsoft
++.copilot.com
++.copilot.microsoft.com
+
+# Ads & Tracking
+copilot-telemetry-service.githubusercontent.com
+copilot-telemetry.githubusercontent.com
+
+# Google DeepMind
++.deepmind.com
++.deepmind.google
+
+# Google Generative Language API
++.geller-pa.googleapis.com
++.generativelanguage.googleapis.com
++.proactivebackend-pa.googleapis.com
++.robinfrontend-pa.googleapis.com
+
+# Opal
++.opal.google
++.opal.google.com
+
+# Antigravity
+antigravity-pa.googleapis.com
+antigravity.googleapis.com
++.antigravity.google
++.antigravity-unleash.goog
+
+# Stitch
++.stitch.withgoogle.com
+
+# Groq
++.groq.com
+
+# HuggingFace
++.hf.co
++.hf.space
++.huggingface.co
+
+# Jetbrains AI
++.grazie.ai
++.grazie.aws.intellij.net
++.jetbrains.ai
+
+# LivePerson
++.liveperson.net
++.lpsnmedia.net
+
+# Manus
++.manus.im
++.manuscdn.com
+
+# Perplexity
++.perplexity.ai
++.perplexity.com
++.pplx.ai
+ppl-ai-file-upload.s3.amazonaws.com
+pplx-res.cloudinary.com
+
+# Poe
++.poe.com
++.poecdn.net
+
+# Windsurf
++.codeium.com
++.codeiumdata.com
++.windsurf.build
++.windsurf.com
+
+
+# Youmind
++.youmind.ai
++.youmind.com
++.youmind.site
+
+# CodeRabbit
++.coderabbit.ai
++.coderabbit.gallery.vsassets.io
+
+# Cohere
++.cohere.ai
++.cohere.com
+
+# DeepWiki
++.deepwiki.com
++.deepwiki.org
+
+# Jasper
++.clipdrop.co
++.jasper.ai
+
+# Kimi/Moonshot
++.kimi.ai
++.moonshot.ai
+
+# Other
++.agentclientprotocol.com
++.anythingllm.com
++.arena.ai
++.chutes.ai
++.clawhub.ai
++.crewai.com
++.devin.ai
++.diabrowser.com
++.diabrowser.engineering
++.dify.ai
++.dreamgen.com
++.duck.ai
++.gateway.ai.cloudflare.com
++.h2o.ai
++.kiro.dev
++.langchain.com
++.lmstudio.ai
++.lovart.ai
++.meta.ai
++.midjourney.com
++.minimax.io
++.mistral.ai
++.mozilla.ai
++.notegpt.io
++.novelai.net
++.ollama.com
++.openart.ai
++.openclaw.ai
++.openrouter.ai
++.openspec.dev
++.plannotator.ai
++.qoder.com
++.sider.ai
++.spicywriter.com
++.talkai.info
++.tapnow.ai
++.tripo3d.ai

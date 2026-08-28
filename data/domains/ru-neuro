@@ -1,0 +1,38 @@
+# https://github.com/v2fly/domain-list-community/blob/master/data/category-ai-ru
+
+# Aiesa (AI assistant)
++.aiesa.ru
+
+# Yandex Alice
++.alice.yandex.net
++.alice.yandex.ru
++.alicepro.yandex.ru
+
+# CopyMonkey (AI copywriter)
++.copymonkey.app
+
+# Gerwin (AI copywriter)
++.gerwin.io
+
+# Sberbank GigaChat
++.giga.chat
+
+# GPTunnel (LLM aggregator)
++.gptunnel.ru
+
+# Polza (LLM aggregator)
++.polza.ai
+
+# RoboText (AI text generator)
++.robotext.io
+
+# RuGPT (AI text generator)
++.rugpt.io
+
+# Tokenator (LLM aggregator)
++.tokenator.top
+
+
+# Not blocked
++.grok.x.com
++.zendesk.com

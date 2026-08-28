@@ -1,0 +1,60 @@
+domains:
+  blocked:
+    type: plain
+    sources:
+      - https://raw.githubusercontent.com/itdoginfo/allow-domains/main/Categories/block.lst
+      - https://raw.githubusercontent.com/1andrevich/Re-filter-lists/main/domains_all.lst
+      - https://raw.githubusercontent.com/1andrevich/Re-filter-lists/main/community.lst
+      - https://community.antifilter.download/list/domains.lst
+
+  ru:
+    type: plain
+    sources:
+      - https://raw.githubusercontent.com/itdoginfo/allow-domains/main/Russia/inside-raw.lst
+      - https://raw.githubusercontent.com/UnRKN/ru-blocklist/refs/heads/main/ru-blocklist-ext.txt
+      - https://raw.githubusercontent.com/oxystin/shadowrocket-configuration/main/rule/domain_banking.list
+
+  ads:
+    type: adguard
+    sources:
+      - https://raw.githubusercontent.com/AdguardTeam/AdGuardSDNSFilter/master/Filters/filter.txt
+      - https://small.oisd.nl
+      - https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/light.txt
+
+  malwares:
+    type: adguard
+    sources:
+      - https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/tif.medium.txt
+      - https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/spam-tlds.txt
+
+  microsoft-spy:
+    type: hosts
+    sources:
+      - https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt
+
+ips:
+  blocked:
+    type: cidr-plain
+    sources:
+      - https://raw.githubusercontent.com/1andrevich/Re-filter-lists/main/ipsum.lst
+      - https://raw.githubusercontent.com/1andrevich/Re-filter-lists/main/community_ips.lst
+      - https://community.antifilter.download/list/community.lst
+
+  cloudflare:
+    type: cidr-plain
+    sources:
+      - https://www.cloudflare.com/ips-v4/
+      - https://www.cloudflare.com/ips-v6/
+
+  yandexcdn:
+    type: cidr-plain
+    sources:
+      - https://yandex.ru/ips
+
+  timewebcdn:
+    type: cidr-plain
+    sources: []
+
+  roblox:
+    type: cidr-plain
+    sources: []

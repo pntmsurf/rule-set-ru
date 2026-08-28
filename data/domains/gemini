@@ -1,0 +1,54 @@
+# https://github.com/itdoginfo/allow-domains/blob/main/Services/google_ai.lst
+
+# Google AI Studio
+ai.google.dev
++.generativeai.google
++.makersuite.google.com
++.ai.studio
++.aistudio.google.com
++.bard.google.com
++.gemini.google
++.gemini.google.com
++.gemini.gstatic.com
+
+# Gemini Code Assist
+cloudaicompanion.googleapis.com
+cloudcode-pa.googleapis.com
+daily-cloudcode-pa.googleapis.com
+
+# NotebookLM
+notebooklm-pa.googleapis.com
+notebooklm.googleapis.com
++.notebook.google.com
++.notebooklm.google
++.notebooklm.google.com
+
+# Jules
++.jules.google
++.jules.google.com
+
+# Google AI Labs
++.labs.google
++.labs.google.com
++.flow.google
++.aisandbox-pa.googleapis.com
+
+# Android Studio Gemini Code Assist
++.aicode.googleapis.com
++.aida.googleapis.com
+
+# Other
++.antigravity-pa.googleapis.com
++.antigravity-unleash.goog
++.antigravity.google
++.antigravity.googleapis.com
++.clients6.google.com
++.deepmind.com
++.deepmind.google
++.firebaseinstallations.googleapis.com
++.geller-pa.googleapis.com
++.generativelanguage.googleapis.com
++.proactivebackend-pa.googleapis.com
++.robinfrontend-pa.googleapis.com
++.speechs3proto2-pa.googleapis.com
++.stitch.withgoogle.com

@@ -1,0 +1,32 @@
+# Habr
+# https://github.com/MetaCubeX/meta-rules-dat/blob/meta/geo/geosite/habr.list
++.habr.com
++.habrastorage.org
+
+
+# Yandex Cloud
+# https://github.com/v2fly/domain-list-community/blob/master/data/yandex
++.yandex.cloud
++.yandexcloud.net
+
+
+# Sber
+# github.com/v2fly/domain-list-community/blob/master/data/sber
+
+# Cloud Ru
+# cloud.ru
++.cloud.ru
++.cloudru.cn
+
+# Giga AI
++.giga.chat
++.gitverse.ru
+
+
+# Other
++.hackernoon.com
++.hackmd.io
++.hashicorp.com
++.zerossl.com
++.zapier.com
++.youtrack.cloud
