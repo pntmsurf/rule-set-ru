@@ -2,6 +2,11 @@ All notable changes to this project will be documented in this file.
 
 
 
+* ✨ Add gaming domains ([#7cd9bb6](https://github.com/pntmsurf/rule-set-ru/commit/7cd9bb6fc7ae07b9651505fcf1027a256a93ae60))
+
+
+
+
 * 🎉 Initial commit ([#b513842](https://github.com/pntmsurf/rule-set-ru/commit/b5138421326aa06583d636ea1a71fd6f439ff61c))
 
 
