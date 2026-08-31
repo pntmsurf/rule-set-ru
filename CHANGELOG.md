@@ -2,6 +2,11 @@ All notable changes to this project will be documented in this file.
 
 
 
+* Chore: upgrade /pending from sources ([#57eabe5](https://github.com/pntmsurf/rule-set-ru/commit/57eabe5ee1927913cfb5354a8ee1804b1c41d0d4))
+
+
+
+
 * ✨ Add gaming domains ([#7cd9bb6](https://github.com/pntmsurf/rule-set-ru/commit/7cd9bb6fc7ae07b9651505fcf1027a256a93ae60))
 
 
