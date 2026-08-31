@@ -30,6 +30,9 @@
 +.gazprombank.ru
 +.gid.ru
 +.gpb.ru
+# https://github.com/hydraponique/roscomvpn-geosite/blob/master/data/whitelist
++.gazprombank.ru
++.domain:gazprompay.ru
 
 # Mizuho Bank
 +.mhcb.ru
@@ -140,6 +143,33 @@
 +.sberbank.com
 +.sberbank.ru
 +.sbrf.ru
+
++.sber.ai
++.sber.ch
++.sber.f
++.sber.group
++.sber.net
++.sber.online
++.sber.store
++.sber.vin
++.sber.wine
++.sberbiz.ru
++.sbercapital.com
++.sbercard.ru
++.sberf.ru
++.sberid.ru
++.sberinsurance.ru
++.sberlabs.ru
++.sbermarket.ru
++.sberonline.ru
++.sberpm.ru
++.sbersafe.ru
++.sbersolutions.ru
++.sberuniversity.ru
++.sberx.ru
++.sberzvuk.ru
++.sbpay.ru
++.sbrf.com
 
 # Business ecosystem
 +.id.ru
