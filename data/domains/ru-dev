@@ -11,10 +11,9 @@
 
 
 # Sber
-# github.com/v2fly/domain-list-community/blob/master/data/sber
+# https://github.com/v2fly/domain-list-community/blob/master/data/sber
 
 # Cloud Ru
-# cloud.ru
 +.cloud.ru
 +.cloudru.cn
 
@@ -22,6 +21,19 @@
 +.giga.chat
 +.gitverse.ru
 
+
+# RegRu
+# https://github.com/v2fly/domain-list-community/blob/master/data/regru
++.reg.cloud
++.reg.com
++.reg.ru
+
+
+# TimeWeb
+# https://github.com/v2fly/domain-list-community/blob/master/data/timeweb
++.timeweb.cloud
++.timeweb.com
++.twcstorage.ru
 
 # Other
 +.hackernoon.com
