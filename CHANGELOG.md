@@ -2,6 +2,13 @@ All notable changes to this project will be documented in this file.
 
 
 
+* ✨ Add Regru and TimeWeb domains to ru-dev ([#9a77732](https://github.com/pntmsurf/rule-set-ru/commit/9a77732ce6ecf1394ef8e71c84afface545ddccd))
+
+* ✨ Add GGSel domain to ru-markets ([#8085102](https://github.com/pntmsurf/rule-set-ru/commit/8085102d09a7cf1b3f97f51d7f95de33d9bc0ee0))
+
+
+
+
 * ✨ Add Sber, GazpromPay, and Gazeta domains to ru-finance and ru-media ([#f37c0f2](https://github.com/pntmsurf/rule-set-ru/commit/f37c0f2b383f99b5c740d35cdb9206afbf9d2512))
 
 
