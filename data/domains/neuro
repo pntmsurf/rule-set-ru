@@ -11,7 +11,6 @@
 +.oaiusercontent.com
 +.openai.com
 +.sora.com
-
 ab.chatgpt.com
 ios.chat.openai.com
 tcr9i.chat.openai.com
@@ -20,12 +19,12 @@ auth.openai.com
 auth0.openai.com
 chat.openai.com
 
-# Advanced Voice
+## Advanced Voice
 +.chatgpt.livekit.cloud
 +.host.livekit.cloud
 +.turn.livekit.cloud
 
-# CDN & API
+## CDN & API
 +.openai.com.cdn.cloudflare.net
 openaiapi-site.azureedge.net
 openaiassets.blob.core.windows.net
@@ -35,36 +34,29 @@ openaicomproductionae4b.blob.core.windows.net
 production-openaicom-storage.azureedge.net
 chatgpt-async-webps-prod-*-*.webpubsub.azure.com
 
-# Tracking
+## Tracking
 browser-intake-datadoghq.com
 o33249.ingest.sentry.io
 openai.qualtrics.com
 
-
-# https://raw.githubusercontent.com/ImpXada/Geosite2Surge/refs/heads/main/data/xai
 # xAI & Grok
+# https://raw.githubusercontent.com/ImpXada/Geosite2Surge/refs/heads/main/data/xai
 +.x.ai
 +.grok-ai-system.com
 +.grok.com
 +.grok.x.com
 +.grokipedia.com
 
-
-
-# https://raw.githubusercontent.com/ImpXada/Geosite2Surge/refs/heads/main/data/perplexity
 # Perplexity
+# https://raw.githubusercontent.com/ImpXada/Geosite2Surge/refs/heads/main/data/perplexity
 +.perplexity.ai
 +.perplexity.com
 +.pplx.ai
-
 +.ppl-ai-file-upload.s3.amazonaws.com
 +.pplx-res.cloudinary.com
 
-
-
-# https://raw.githubusercontent.com/ImpXada/Geosite2Surge/refs/heads/main/data/category-ai-!cn
 # Anthropic
-#include:anthropic
+# https://raw.githubusercontent.com/ImpXada/Geosite2Surge/refs/heads/main/data/category-ai-!cn
 +.anthropic.com
 +.clau.de
 +.claude.ai
@@ -72,11 +64,7 @@ openai.qualtrics.com
 +.claudemcpclient.com
 +.claudemcpcontent.com
 +.claudeusercontent.com
-
-# CDN
 servd-anthropic-website.b-cdn.net
-
-
 
 # Bytedance AI
 +.cici.com
@@ -87,18 +75,16 @@ servd-anthropic-website.b-cdn.net
 +.marscode.com
 +.trae.ai
 
-# Cerebras
 +.cerebras.ai
 
 # Comfy
-# 绘世启动器
 +.oystermercury.top
 +.comfy.org
 +.comfyci.org
-
 +.comfyregistry.org
 
 # Cursor
+# https://github.com/v2fly/domain-list-community/blob/master/data/cursor
 +.cursor-cdn.com
 +.cursor.com
 +.cursor.sh
@@ -116,17 +102,50 @@ servd-anthropic-website.b-cdn.net
 
 # GitHub Copilot
 +.githubcopilot.com
-copilot-proxy.githubusercontent.com
-copilot-workspace.githubnext.com
-copilotprodattachments.blob.core.windows.net
 +.copilot-stg.com
 +.copilot.cloud.microsoft
 +.copilot.com
 +.copilot.microsoft.com
+# https://github.com/v2fly/domain-list-community/blob/master/data/github-copilot
+copilot-proxy.githubusercontent.com
+copilot-workspace.githubnext.com
+copilotprodattachments.blob.core.windows.net
 
-# Ads & Tracking
-copilot-telemetry-service.githubusercontent.com
-copilot-telemetry.githubusercontent.com
+# ElevenLabs
+# https://github.com/v2fly/domain-list-community/blob/master/data/elevenlabs
++.elevenlabs.com
++.elevenlabs.io
+
+# Poe
+# https://github.com/v2fly/domain-list-community/blob/master/data/poe
++.poe.com
++.poecdn.net
+
+# Midjourney
+# https://github.com/v2fly/domain-list-community/blob/master/data/category-ai-!cn
++.midjourney.com
++.mistral.ai
++.runway.com
++.cohere.ai
++.cohere.com
+
+# https://github.com/Banezzz/private_clash_rules/blob/main/ai.list
++.luma.ai
++.lumalabs.ai
++.suno.com
++.suno.ai
++.udio.com
++.krea.ai
++.leonardo.ai
++.runwayml.com
++.tabnine.com
++.devin.ai
++.cognition.ai
++.deepwiki.com
++.deepwiki.org
+
+# https://github.com/Edisenlee/miao/blob/main/Redirect.list
++.quillbot.com
 
 # Google DeepMind
 +.deepmind.com
@@ -148,10 +167,8 @@ antigravity.googleapis.com
 +.antigravity.google
 +.antigravity-unleash.goog
 
-# Stitch
 +.stitch.withgoogle.com
 
-# Groq
 +.groq.com
 
 # HuggingFace
@@ -172,13 +189,6 @@ antigravity.googleapis.com
 +.manus.im
 +.manuscdn.com
 
-# Perplexity
-+.perplexity.ai
-+.perplexity.com
-+.pplx.ai
-ppl-ai-file-upload.s3.amazonaws.com
-pplx-res.cloudinary.com
-
 # Poe
 +.poe.com
 +.poecdn.net
@@ -188,7 +198,6 @@ pplx-res.cloudinary.com
 +.codeiumdata.com
 +.windsurf.build
 +.windsurf.com
-
 
 # Youmind
 +.youmind.ai
@@ -215,6 +224,15 @@ pplx-res.cloudinary.com
 +.kimi.ai
 +.moonshot.ai
 
+# Meta
++.meta.ai
++.llama.com
++.muse.ai
+
+# v0
++.v0.app
++.v0.dev
+
 # Other
 +.agentclientprotocol.com
 +.anythingllm.com
@@ -222,7 +240,6 @@ pplx-res.cloudinary.com
 +.chutes.ai
 +.clawhub.ai
 +.crewai.com
-+.devin.ai
 +.diabrowser.com
 +.diabrowser.engineering
 +.dify.ai
@@ -234,10 +251,7 @@ pplx-res.cloudinary.com
 +.langchain.com
 +.lmstudio.ai
 +.lovart.ai
-+.meta.ai
-+.midjourney.com
 +.minimax.io
-+.mistral.ai
 +.mozilla.ai
 +.notegpt.io
 +.novelai.net
