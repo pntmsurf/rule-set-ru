@@ -1,0 +1,73 @@
+# Messenger
+# https://github.com/v2fly/domain-list-community/blob/master/data/messenger
++.fbmessenger.com
++.m.me
++.messenger.com
++.nbabot.net
+
+# WhatsApp
+# https://github.com/v2fly/domain-list-community/blob/master/data/whatsapp
++.wa.me
++.whatsapp-plus.info
++.whatsapp-plus.me
++.whatsapp-plus.net
++.whatsapp.cc
++.whatsapp.com
++.whatsapp.info
++.whatsapp.net
++.whatsapp.org
++.whatsapp.tv
++.whatsappbrand.com
+# https://github.com/itdoginfo/allow-domains/blob/main/Services/meta.lst
++.whatsapp.biz
+
+# Discord
+# https://github.com/v2fly/domain-list-community/blob/master/data/discord
++.dis.gd
++.discord.co
++.discord.com
++.discord.design
++.discord.dev
++.discord.gg
++.discord.gift
++.discord.gifts
++.discord.media
++.discord.new
++.discord.store
++.discord.tools
++.discord-activities.com
++.discordactivities.com
++.discordapp.com
++.discordapp.net
++.discordmerch.com
++.discordpartygames.com
++.discordsays.com
++.discordstatus.com
+
+## Other
++.airhorn.solutions
++.airhornbot.com
++.bigbeans.solutions
++.watchanimeattheoffice.com
+
+## Unused
++.discordapp.io
++.discordcdn.com
+
+discord-attachments-uploads-prd.storage.googleapis.com
+hammerandchisel.ssl.zendesk.com
+
+# Viber
+# https://github.com/v2fly/domain-list-community/blob/master/data/viber
++.viber.com
++.viber.co
++.viber.me
++.s-bid.rmp.rakuten.com
++.vbcdn.com
++.vbcdn.net
+
+# Zoom
+# https://github.com/v2fly/domain-list-community/blob/master/data/zoom
++.zoom.com
++.zoom.com.cn
++.zoom.us
