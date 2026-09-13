@@ -1,0 +1,19 @@
+# Twitter
+# https://github.com/v2fly/domain-list-community/blob/master/data/twitter
++.ads-twitter.com
+
+# Facebook
+# https://github.com/v2fly/domain-list-community/blob/master/data/facebook
++.analytics.facebook.com
++.facebookads.com
++.pixel.facebook.com
+
+# Instagram
+# https://github.com/v2fly/domain-list-community/blob/master/data/instagram
++.graph.instagram.com
++.graph-fallback.instagram.com
+
+# WhatsApp
+# https://github.com/v2fly/domain-list-community/blob/master/data/whatsapp
++.graph.whatsapp.com
++.graph.whatsapp.net
