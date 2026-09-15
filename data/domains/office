@@ -1,0 +1,160 @@
+# Notion
+# https://github.com/v2fly/domain-list-community/blob/master/data/notion
++.notion-static.com
++.notion-status.com
++.notion.com
++.notion.new
++.notion.site
++.notion.so
++.notionusercontent.com
+
+# Miro
+# https://github.com/pincetgore/PinRouting/blob/main/geosite/data/category-geoblock-ru
++.miro.com
++.miro-apps.com
++.asana.com
++.clickup.com
++.monday.com
++.mondayapps.com
+
+# Atlassian
+# https://github.com/v2fly/domain-list-community/blob/master/data/atlassian
++.atl-paas.net
++.atlassian-dev.net
++.atlassian.com
++.atlassian.net
++.bitbucket.io
++.bitbucket.org
++.jira.com
++.ss-inf.net
++.statuspage.io
+
+# Trello
+# https://github.com/v2fly/domain-list-community/blob/master/data/trello
++.trello.com
++.trellocdn.com
+
+# Slack
+# https://github.com/v2fly/domain-list-community/blob/master/data/slack
++.slack-core.com
++.slack-edge.com
++.slack-files.com
++.slack-imgs.com
++.slack-msgs.com
++.slack-redir.net
++.slack.com
++.slackb.com
++.slackcertified.com
++.slackdemo.com
++.slackhq.com
+
+# TeamViewer
+# https://github.com/v2fly/domain-list-community/blob/master/data/teamviewer
++.teamviewer.cn
++.teamviewer.com
++.teamviewer.us
+client-teamviewer-com.trafficmanager.net
+teamviewer.com.cdn.cloudflare.net
+
+# Salesforce
+# https://github.com/v2fly/domain-list-community/blob/master/data/salesforce
++.appcloud.com
++.appexchange.com
++.attic.io
++.beyondcore.com
++.buddymedia.com
++.chatter.com
++.cloudcraze.com
++.cotweet.com
++.data.com
++.demandware.com
++.desk.com
++.documentforce.com
++.dreamforce.com
++.einstein.com
++.exacttarget.com
++.force.com
++.govforce.com
++.gravitytank.com
++.heywire.com
++.krux.com
++.marketingcloud.com
++.metamind.io
++.pardot.com
++.quotable.com
++.radian6.com
++.relateiq.com
++.salesforce-setup.com
++.salesforce-sites.com
++.salesforce.com
++.salesforce.org
++.salesforceiq.com
++.salesforceliveagent.com
++.salesforcemarketingcloud.com
++.sequence.com
++.sfdcstatic.com
++.sforce.com
++.site.com
++.social.com
++.steelbrick.com
++.twinprime.com
++.weinvoiceit.com
+
+# Microsoft
+# https://github.com/v2fly/domain-list-community/blob/master/data/microsoft
++.office
++.lync.cn
++.microsoft365.com
++.microsoftstream.com
++.microsoftteams.com
++.ms365surfaceoffer.com
++.o365cn.com
++.o365files.cn
++.o365weve-dev.com
++.o365weve-ppe.com
++.o365weve.com
++.office.com
++.office.net
++.office365-net.cn
++.office365.cn
++.office365.com
++.office365love.com
++.office365tw.com
++.officecdn-microsoft-com.akamaized.net
++.officeplus.cn
++.officewebapps.cn
++.onenote.com
++.onenote.net
++.renovacionoffice.com
++.sharepoint.cn
++.sharepoint.com
++.sharepointonline.com
++.staffhub.ms
++.successwithteams.com
++.sway-cdn.com
++.sway.com
++.yammer.com
+b.c2r.ts.cdn.office.net
+f.c2r.ts.cdn.office.net
+officecdn.microsoft.com
+officemkt.download.prss.microsoft.com
+officemktuat.download.prss.microsoft.com
+shell.cdn.office.net
+statics.teams.cdn.office.net
+
+# OneDrive
+# https://github.com/v2fly/domain-list-community/blob/master/data/onedrive
++.1drv.com
++.1drv.ms
++.livefilestore.com
++.onedrive.co
++.onedrive.co.uk
++.onedrive.com
++.onedrive.eu
++.onedrive.net
++.onedrive.org
++.onedrive.live.com
++.storage.live.com
+
+# Others
++.coda.io
