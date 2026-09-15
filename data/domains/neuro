@@ -110,6 +110,8 @@ servd-anthropic-website.b-cdn.net
 copilot-proxy.githubusercontent.com
 copilot-workspace.githubnext.com
 copilotprodattachments.blob.core.windows.net
+# https://github.com/v2fly/domain-list-community/blob/master/data/bing
+location.microsoft.com
 
 # ElevenLabs
 # https://github.com/v2fly/domain-list-community/blob/master/data/elevenlabs
@@ -146,6 +148,7 @@ copilotprodattachments.blob.core.windows.net
 
 # https://github.com/Edisenlee/miao/blob/main/Redirect.list
 +.quillbot.com
++.grammarly.com
 
 # Google DeepMind
 +.deepmind.com
