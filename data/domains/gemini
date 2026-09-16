@@ -37,18 +37,35 @@ notebooklm.googleapis.com
 +.aicode.googleapis.com
 +.aida.googleapis.com
 
-# Other
-+.antigravity-pa.googleapis.com
-+.antigravity-unleash.goog
-+.antigravity.google
-+.antigravity.googleapis.com
-+.clients6.google.com
+# https://github.com/v2fly/domain-list-community/blob/master/data/google-deepmind
+
+## Google DeepMind
 +.deepmind.com
 +.deepmind.google
-+.firebaseinstallations.googleapis.com
+
+## Google AI Studio
+alkalicore-pa.clients6.google.com
+alkalimakersuite-pa.clients6.google.com
+webchannel-alkalimakersuite-pa.clients6.google.com
+
+## Google Generative Language API
 +.geller-pa.googleapis.com
 +.generativelanguage.googleapis.com
 +.proactivebackend-pa.googleapis.com
 +.robinfrontend-pa.googleapis.com
+
+## Antigravity
+antigravity-pa.googleapis.com
+antigravity.googleapis.com
++.antigravity.google
++.antigravity-unleash.goog
+
+## Opal
++.opal.google
++.opal.google.com
+
+# Others
++.clients6.google.com
++.firebaseinstallations.googleapis.com
 +.speechs3proto2-pa.googleapis.com
 +.stitch.withgoogle.com
