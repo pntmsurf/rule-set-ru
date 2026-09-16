@@ -1,0 +1,17 @@
+# Amazon
+# https://github.com/v2fly/domain-list-community/blob/master/data/amazon
++.amazon-adsystem.com
++.serving-sys.com
+
+# Microsoft
+# https://github.com/v2fly/domain-list-community/blob/master/data/microsoft
++.clarity.ms
++.microsoftads.com
++.msads.net
++.nelreports.net
++.bingads.com
+
+# MSN
+# https://github.com/v2fly/domain-list-community/blob/master/data/msn
++.browser.events.data.msn.cn
++.browser.events.data.msn.com
