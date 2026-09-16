@@ -2,6 +2,37 @@ All notable changes to this project will be documented in this file.
 
 
 
+* ✨ Add Skype, Grammarly and Bing domains ([#8183ad1](https://github.com/pntmsurf/rule-set-ru/commit/8183ad1dce5adf6e7896159e926b402bde9fe0b2))
+
+* ✨ Add office domains ([#49cc1da](https://github.com/pntmsurf/rule-set-ru/commit/49cc1daa1d92ec1b945039a94d79c42e340636e9))
+
+* ✨ Add design and design-ads domains ([#71486c1](https://github.com/pntmsurf/rule-set-ru/commit/71486c1fea013df5fbb92fdce7798e91b32d68fa))
+
+* ✨ Add music and music-ads domains ([#7228472](https://github.com/pntmsurf/rule-set-ru/commit/722847211db521eb7d9b3b98e23cffa4fd23bffc))
+
+* ✨ Add movies and movies-ads domains ([#917abf2](https://github.com/pntmsurf/rule-set-ru/commit/917abf24a8bcff907605d92c4cbce47843bcf8ab))
+
+* ✨ Add dev and dev-ads domains ([#39cbe11](https://github.com/pntmsurf/rule-set-ru/commit/39cbe1184500a6678fd2185ae8478c00480c830f))
+
+* ✨ Add corporation and corporation-ads domains ([#f2adf27](https://github.com/pntmsurf/rule-set-ru/commit/f2adf279436e91b32ab47749d3c9d24ab16bfbd2))
+
+* ✨ Add anime domains ([#0db5c8b](https://github.com/pntmsurf/rule-set-ru/commit/0db5c8b77f6f48fe7423030791c3a0e98085bcd7))
+
+* ✨ Add books domains ([#629442f](https://github.com/pntmsurf/rule-set-ru/commit/629442f899c30969a0a0ed73e33d4e397c44eb48))
+
+* ✨ Add email domains ([#6c2f9ad](https://github.com/pntmsurf/rule-set-ru/commit/6c2f9ad4d25921f46a61e67c446dab981996d6f8))
+
+* ✨ Add foods domains ([#435ec2f](https://github.com/pntmsurf/rule-set-ru/commit/435ec2f1b9eab9d50b34fd185b6591593ce7af5e))
+
+* ✨ Add neuro-ads domains ([#8a57fac](https://github.com/pntmsurf/rule-set-ru/commit/8a57facd3e8641f2eaf308f201a1f3d98246ffdd))
+
+
+
+* ♻️ Refactor and update domain lists ([#ec16a22](https://github.com/pntmsurf/rule-set-ru/commit/ec16a22f7ef54fcdc79c419af013ec9efb86afe9))
+
+
+
+
 * ✨ Add social and social-ads domains ([#674a1e4](https://github.com/pntmsurf/rule-set-ru/commit/674a1e410e97f7dbf0499ab04a7f7cdfa80b7fcc))
 
 * ✨ Add messenger domains ([#4d8796c](https://github.com/pntmsurf/rule-set-ru/commit/4d8796ca80e4e45e641b2ead7dbe348bc4de447e))
