@@ -150,28 +150,6 @@ location.microsoft.com
 +.quillbot.com
 +.grammarly.com
 
-# Google DeepMind
-+.deepmind.com
-+.deepmind.google
-
-# Google Generative Language API
-+.geller-pa.googleapis.com
-+.generativelanguage.googleapis.com
-+.proactivebackend-pa.googleapis.com
-+.robinfrontend-pa.googleapis.com
-
-# Opal
-+.opal.google
-+.opal.google.com
-
-# Antigravity
-antigravity-pa.googleapis.com
-antigravity.googleapis.com
-+.antigravity.google
-+.antigravity-unleash.goog
-
-+.stitch.withgoogle.com
-
 +.groq.com
 
 # HuggingFace
@@ -236,7 +214,14 @@ antigravity.googleapis.com
 +.v0.app
 +.v0.dev
 
-# Other
+# Kaggle
+# https://github.com/v2fly/domain-list-community/blob/master/data/kaggle
++.kaggle.com
++.kaggle.io
++.kaggle.net
++.kaggleusercontent.com
+
+# Others
 +.agentclientprotocol.com
 +.anythingllm.com
 +.arena.ai
