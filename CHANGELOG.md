@@ -2,6 +2,25 @@ All notable changes to this project will be documented in this file.
 
 
 
+* ✨ Add Google domains to corporation and corporation-ads ([#125b929](https://github.com/pntmsurf/rule-set-ru/commit/125b929b6325f4738ad507352f2008cd6f0a57ae))
+
+* ✨ Add Google dev domains to dev ([#0893252](https://github.com/pntmsurf/rule-set-ru/commit/08932523c56561247c27ce935c071b61ee2fca5c))
+
+* ✨ Add Google AI domains to gemini ([#62e9156](https://github.com/pntmsurf/rule-set-ru/commit/62e91567ef796c79d4792caa12360e417d42c5fd))
+
+* ✨ Expand youtube domains ([#609f66d](https://github.com/pntmsurf/rule-set-ru/commit/609f66d838abc702b793040f67219e4378aaec3c))
+
+
+
+* 🩹 Fix adobedc.cn formatting in design ([#5f1a1f0](https://github.com/pntmsurf/rule-set-ru/commit/5f1a1f01ae246d4f88077b982c73dc246041d8b7))
+
+
+
+* ♻️ Refactor neuro and add Kaggle domains ([#76aea84](https://github.com/pntmsurf/rule-set-ru/commit/76aea84634a171cbf98c8118e538789cddb7f38d))
+
+
+
+
 * ✨ Add Skype, Grammarly and Bing domains ([#8183ad1](https://github.com/pntmsurf/rule-set-ru/commit/8183ad1dce5adf6e7896159e926b402bde9fe0b2))
 
 * ✨ Add office domains ([#49cc1da](https://github.com/pntmsurf/rule-set-ru/commit/49cc1daa1d92ec1b945039a94d79c42e340636e9))
