@@ -2,6 +2,11 @@ All notable changes to this project will be documented in this file.
 
 
 
+* ✨ Add Osnova domain to ru-forums ([#ec477c1](https://github.com/pntmsurf/rule-set-ru/commit/ec477c11bf29338fdcf11d3eda2caf457e4c9663))
+
+
+
+
 * ✨ Add Google domains to corporation and corporation-ads ([#125b929](https://github.com/pntmsurf/rule-set-ru/commit/125b929b6325f4738ad507352f2008cd6f0a57ae))
 
 * ✨ Add Google dev domains to dev ([#0893252](https://github.com/pntmsurf/rule-set-ru/commit/08932523c56561247c27ce935c071b61ee2fca5c))
