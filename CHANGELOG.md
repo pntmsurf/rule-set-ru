@@ -2,6 +2,17 @@ All notable changes to this project will be documented in this file.
 
 
 
+* ✨ Add Dline Media, UFO Hosting and Aeza domains to ru-dev ([#b932891](https://github.com/pntmsurf/rule-set-ru/commit/b93289173976d13e0f4ba9cd3540b27a0fd66527))
+
+
+
+* 👷 Simplify release notes step name ([#4344657](https://github.com/pntmsurf/rule-set-ru/commit/4344657bd6129fd09e875286adaa7aac9527fa72))
+
+* 👷 Publish rule sets to dist branch for jsDelivr ([#9bc4891](https://github.com/pntmsurf/rule-set-ru/commit/9bc489158e90237204fb716681267e2b1b7d51c2))
+
+
+
+
 * ✨ Add Osnova domain to ru-forums ([#ec477c1](https://github.com/pntmsurf/rule-set-ru/commit/ec477c11bf29338fdcf11d3eda2caf457e4c9663))
 
 
