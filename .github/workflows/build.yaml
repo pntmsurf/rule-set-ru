@@ -155,3 +155,39 @@ jobs:
           body_path: RELEASE_NOTES.md
           draft: false
           prerelease: false
+
+      - name: Publish rule sets to dist branch
+        if: steps.check.outputs.has_changes == 'true'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          publish_dir=$(mktemp -d)
+
+          find release/ -type f \( -name '*.dat' -o -name '*.srs' -o -name '*.mrs' \) \
+            -exec cp {} "$publish_dir/" \;
+
+          echo "Files to publish to jsDelivr:"
+          ls -la "$publish_dir"
+
+          cd "$publish_dir"
+          git init -q -b dist
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -q -m "Rule sets for ${{ steps.semver.outputs.tag }}"
+          git remote add origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git"
+          git push -q --force origin HEAD:refs/heads/dist
+
+      - name: Purge jsDelivr cache
+        if: steps.check.outputs.has_changes == 'true'
+        continue-on-error: true
+        run: |
+          set -uo pipefail
+          for f in release/*.dat release/*.srs release/*.mrs; do
+            [ -e "$f" ] || continue
+            name=$(basename "$f")
+            url="https://purge.jsdelivr.net/gh/${{ github.repository }}@dist/${name}"
+            echo "Purging ${url}"
+            curl -fsS "$url" || echo "  purge failed for ${name}, continuing"
+          done
