@@ -86,7 +86,7 @@ jobs:
             --tag "${{ steps.semver.outputs.tag }}" \
             -o CHANGELOG.md
 
-      - name: Generate release notes (current version only)
+      - name: Generate release notes
         if: steps.check.outputs.has_changes == 'true'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
