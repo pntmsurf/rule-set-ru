@@ -26,6 +26,27 @@ func BuildGeoSiteList(domainsDir string) (*router.GeoSiteList, error) {
 
 		geosite := &router.GeoSite{CountryCode: strings.ToUpper(file.Name)}
 		for _, line := range lines {
+			if idx := strings.Index(line, "#"); idx >= 0 {
+				line = strings.TrimSpace(line[:idx])
+			}
+			if line == "" {
+				continue
+			}
+
+			var attrs []*router.Domain_Attribute
+			parts := strings.Fields(line)
+			if len(parts) > 1 {
+				line = parts[0]
+				for _, tok := range parts[1:] {
+					if strings.HasPrefix(tok, "@") && len(tok) > 1 {
+						attrs = append(attrs, &router.Domain_Attribute{
+							Key:        strings.ToLower(tok[1:]),
+							TypedValue: &router.Domain_Attribute_BoolValue{BoolValue: true},
+						})
+					}
+				}
+			}
+
 			domainType := router.Domain_Domain
 			switch {
 			case strings.HasPrefix(line, "+."):
@@ -43,6 +64,11 @@ func BuildGeoSiteList(domainsDir string) (*router.GeoSiteList, error) {
 			case strings.HasPrefix(line, "keyword:"):
 				domainType = router.Domain_Plain
 				line = strings.TrimPrefix(line, "keyword:")
+			case strings.HasPrefix(line, "^") || strings.HasPrefix(line, ".+\\."):
+				domainType = router.Domain_Regex
+			case strings.HasPrefix(line, "."):
+				domainType = router.Domain_Domain
+				line = strings.TrimPrefix(line, ".")
 			}
 
 			if strings.Contains(line, "*") && domainType == router.Domain_Domain {
@@ -51,8 +77,9 @@ func BuildGeoSiteList(domainsDir string) (*router.GeoSiteList, error) {
 			}
 
 			geosite.Domain = append(geosite.Domain, &router.Domain{
-				Type:  domainType,
-				Value: line,
+				Type:      domainType,
+				Value:     line,
+				Attribute: attrs,
 			})
 		}
 		list.Entry = append(list.Entry, geosite)
