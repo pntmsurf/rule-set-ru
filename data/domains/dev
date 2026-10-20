@@ -22,8 +22,8 @@
 +.firebase.io
 +.firebaseapp.com
 +.firebaseio.com
-crashlyticsreports-pa.googleapis.com @cn
-firebase-settings.crashlytics.com @cn
+crashlyticsreports-pa.googleapis.com
+firebase-settings.crashlytics.com
 firebase.google.com
 firebase.googleapis.com
 firebaseappcheck.googleapis.com
@@ -36,7 +36,7 @@ firebaselogging-pa.googleapis.com
 firebaselogging.googleapis.com
 firebaseperusertopics-pa.googleapis.com
 firebaseremoteconfig.googleapis.com
-update.crashlytics.com @cn
+update.crashlytics.com
 
 # Firebase Cloud Messaging
 # https://github.com/v2fly/domain-list-community/blob/master/data/googlefcm
