@@ -2,6 +2,21 @@ All notable changes to this project will be documented in this file.
 
 
 
+* ✨ Add Red Head Sound domain to ru-movies ([#5579499](https://github.com/pntmsurf/rule-set-ru/commit/5579499ed0e1242258e85896150df452861facf8))
+
+* ✨ Add Platega and PayHot domains to ru-finance ([#fe4f170](https://github.com/pntmsurf/rule-set-ru/commit/fe4f1705addbb11329f631196cd80eeca291d865))
+
+* ✨ Add Antigravity and OAuth domains to gemini ([#4b49c15](https://github.com/pntmsurf/rule-set-ru/commit/4b49c1576d31fcf7b5d81f49145550dc419378d6))
+
+
+
+* 🩹 Fix Crashlytics domains formatting in dev ([#18829f1](https://github.com/pntmsurf/rule-set-ru/commit/18829f1ca1f47d691839f715d088cf6f13cc7de7))
+
+* 🐛 Fix inline comments, attributes and regex parsing in xraygeo ([#68ec45c](https://github.com/pntmsurf/rule-set-ru/commit/68ec45c368194c82b6d799110ad45a5d2b084d1b))
+
+
+
+
 * ✨ Add Dline Media, UFO Hosting and Aeza domains to ru-dev ([#b932891](https://github.com/pntmsurf/rule-set-ru/commit/b93289173976d13e0f4ba9cd3540b27a0fd66527))
 
 
